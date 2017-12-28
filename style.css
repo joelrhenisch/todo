@@ -7,6 +7,7 @@ body {
 .wrapper {
     margin: 0 auto;
     width: 550px;
+    display: flex;
 }
 
 h1 {
@@ -15,11 +16,15 @@ h1 {
     font-weight: 100;
     margin-bottom: 20px;
     text-align: center;
+    align-items: flex-start;
+    order: 1;
 }
 
 .todo-list {
     background-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+    order: 2;
 }
 
 .new-todo {
